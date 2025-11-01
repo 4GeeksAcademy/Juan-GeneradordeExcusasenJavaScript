@@ -1,5 +1,23 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
+/* ===== Estilo general ===== */
 body{
-    background: white;
+    background: rgb(154, 198, 240);
+}
+
+/* Imagen de navidad */
+.christmas {
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.4);
+}
+
+.alert-christmas {
+  background-color: #f8f9fa; 
+  color: #4340eb;
+  border: 3px solid #c0392b;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(192, 57, 43, 0.4);
+  padding: 30px;
+  max-width: 700px;
+  margin: 0 auto;
 }
